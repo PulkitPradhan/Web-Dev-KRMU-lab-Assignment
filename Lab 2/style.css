@@ -6,7 +6,6 @@
 }
 
 #head{
-    position: ;
     display: flex;
     margin-bottom: 35px;
     background-color: #fff;
@@ -92,8 +91,4 @@ p{
 #bcktotp{
     margin-top: 20px;
 text-align: right;
-}
-
-.contact-form{
-    
 }
