@@ -1,0 +1,99 @@
+#navbar{
+    flex-direction: column;
+    background-color: #42a5f5;
+    border: #333 solid 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head{
+    position: ;
+    display: flex;
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+#about{
+    color:  #0d47a1;
+    background-color: #dedede;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    padding:15px;
+    border: #bebebe solid 2px;
+}
+
+#skills{
+   background-color: #dedede;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    color: #0d47a1;
+    border:#bebebe solid 2px;
+    padding:15px;
+}
+
+table, th,td{
+    border: 2px solid black;
+    border-style:double;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact{
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    color: #0d47a1;
+    padding:15px;
+    border: #bebebe solid 2px;
+    border-radius: 10px;
+}
+hr{
+    border: none;
+    height: 10px;
+    background-color: #0d47a1;
+
+}
+
+.pfp{
+     width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    align-items: center;
+
+}
+
+h1{
+    color: #0d47a1;
+    position:relative;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    color: #0d47a1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+p{
+    color: #333;
+    font-family: sans-serif;
+}
+
+.formgroup{
+    border-radius: 15px;
+}
+
+#bcktotp{
+    margin-top: 20px;
+text-align: right;
+}
+
+.contact-form{
+    
+}

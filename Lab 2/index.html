@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="prstyle.css">
+</head>
+<body>
+
+<header>
+<div id="head">
+    <h1>
+        Greetings!
+        <br>
+        My Name is Pulkit Pradhan</h1>
+</div>
+</header>
+
+
+<div id="navbar">
+        <nav>
+            <ul style="display: flex;gap: 20px;list-style-type: none;justify-content: center;padding:10px;">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<main>
+    <section id="about">
+        <img class='pfp', src="https://placehold.co/150x150/0d47a1/white?text=Me" alt="A profile photo of me" class="profile-pic">
+            <h2>About Me</h2>
+            
+            <hr>
+            
+            <p>Welcome to my personal portfolio. I am a student passionate about web development, focusing on front-end technologies. This page is a showcase of my journey and projects.</p>
+    </section>
+    
+    
+<section id="skills">
+    <h2>Skills</h2>
+     <p>Here is a summary of my technical abilities and tools I have worked with.</p>
+     <table>
+
+        <thead class="skl">
+            <tr>
+
+         <th>Category</th>
+         <th>Skills / Tools</th>
+         <th>Experience Level</th></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                 <td>Web Development</td>
+                 <td>HTML5, CSS</td>
+                 <td>Intermediate</td>
+            </tr>
+            
+            <tr>
+            <td>Design</td>
+            <td>Figma, Responsive Design</td>
+            <td>Beginner</td>
+            </tr>
+                    
+            <tr>
+            <td>Tools</td>
+            <td>Git, VS Code,</td>
+            <td>Intermediate</td>
+            </tr>
+
+        </tbody>
+
+     </table>
+</section>
+
+
+ <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I am always open to new opportunities and collaborations. Feel free to contact me.</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" style="font-family: 'Lucida Sans';">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="email" style="font-family: 'Lucida Sans';">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="message"style="font-family: 'Lucida Sans';">Message:</label><br>
+                    <textarea id="message" name="message" rows="" required></textarea>
+                </div><br>
+                <button type="submit" class="btn" style="border-radius: 5px;background-color: #42a5f5;">Send Message</button>
+            </form>
+        </section>
+</main>
+<br>
+<footer>
+        <p>&copy; 2025 My Name. All rights reserved.</p>
+</footer>
+<a href="#head" id="bcktotp">TO TOP</a>
+
+
+</body>
+</html>
